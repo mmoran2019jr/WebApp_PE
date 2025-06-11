@@ -145,3 +145,6 @@ C:\Users\mmora\OneDrive\Documents\Prueba_VinculateGroups\WebApp_PE\obj\Debug\net
 C:\Users\mmora\OneDrive\Documents\Prueba_VinculateGroups\WebApp_PE\obj\Debug\net8.0\WebApp_PE.pdb
 C:\Users\mmora\OneDrive\Documents\Prueba_VinculateGroups\WebApp_PE\obj\Debug\net8.0\WebApp_PE.genruntimeconfig.cache
 C:\Users\mmora\OneDrive\Documents\Prueba_VinculateGroups\WebApp_PE\obj\Debug\net8.0\ref\WebApp_PE.dll
+C:\Users\mmora\OneDrive\Documents\Prueba_VinculateGroups\WebApp_PE\obj\Debug\net8.0\WebApp_PE.sourcelink.json
+C:\Users\mmora\OneDrive\Documents\Prueba_VinculateGroups\WebApp_PE\bin\Debug\net8.0\web.config
+C:\Users\mmora\OneDrive\Documents\Prueba_VinculateGroups\WebApp_PE\bin\Debug\net8.0\appsettings.Production.json

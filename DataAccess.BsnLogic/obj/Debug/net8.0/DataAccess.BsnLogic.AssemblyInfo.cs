@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DataAccess.BsnLogic")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d1f7865832081afd7fcfe4d7e2bc4e5334cd76bf")]
 [assembly: System.Reflection.AssemblyProductAttribute("DataAccess.BsnLogic")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DataAccess.BsnLogic")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -12,3 +12,4 @@ C:\Users\mmora\OneDrive\Documents\Prueba_VinculateGroups\DataAccess.BsnLogic\obj
 C:\Users\mmora\OneDrive\Documents\Prueba_VinculateGroups\DataAccess.BsnLogic\obj\Debug\net8.0\DataAccess.BsnLogic.pdb
 C:\Users\mmora\OneDrive\Documents\Prueba_VinculateGroups\DataAccess.BsnLogic\obj\Debug\net8.0\DataAccess.BsnLogic.genruntimeconfig.cache
 C:\Users\mmora\OneDrive\Documents\Prueba_VinculateGroups\DataAccess.BsnLogic\obj\Debug\net8.0\ref\DataAccess.BsnLogic.dll
+C:\Users\mmora\OneDrive\Documents\Prueba_VinculateGroups\DataAccess.BsnLogic\obj\Debug\net8.0\DataAccess.BsnLogic.sourcelink.json

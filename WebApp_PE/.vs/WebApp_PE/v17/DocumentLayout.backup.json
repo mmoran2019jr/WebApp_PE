@@ -3,45 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\WebApp_PE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A443F12D-F8CA-4B0D-B5CC-291FF8F1D1A6}|WebApp_PE.csproj|c:\\users\\mmora\\onedrive\\documents\\prueba_vinculategroups\\webapp_pe\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A443F12D-F8CA-4B0D-B5CC-291FF8F1D1A6}|WebApp_PE.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A443F12D-F8CA-4B0D-B5CC-291FF8F1D1A6}|WebApp_PE.csproj|c:\\users\\mmora\\onedrive\\documents\\prueba_vinculategroups\\webapp_pe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A443F12D-F8CA-4B0D-B5CC-291FF8F1D1A6}|WebApp_PE.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A443F12D-F8CA-4B0D-B5CC-291FF8F1D1A6}|WebApp_PE.csproj|c:\\users\\mmora\\onedrive\\documents\\prueba_vinculategroups\\webapp_pe\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A443F12D-F8CA-4B0D-B5CC-291FF8F1D1A6}|WebApp_PE.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A443F12D-F8CA-4B0D-B5CC-291FF8F1D1A6}|WebApp_PE.csproj|c:\\users\\mmora\\onedrive\\documents\\prueba_vinculategroups\\webapp_pe\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A443F12D-F8CA-4B0D-B5CC-291FF8F1D1A6}|WebApp_PE.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A443F12D-F8CA-4B0D-B5CC-291FF8F1D1A6}|WebApp_PE.csproj|c:\\users\\mmora\\onedrive\\documents\\prueba_vinculategroups\\webapp_pe\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A443F12D-F8CA-4B0D-B5CC-291FF8F1D1A6}|WebApp_PE.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A443F12D-F8CA-4B0D-B5CC-291FF8F1D1A6}|WebApp_PE.csproj|c:\\users\\mmora\\onedrive\\documents\\prueba_vinculategroups\\webapp_pe\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A443F12D-F8CA-4B0D-B5CC-291FF8F1D1A6}|WebApp_PE.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A443F12D-F8CA-4B0D-B5CC-291FF8F1D1A6}|WebApp_PE.csproj|c:\\users\\mmora\\onedrive\\documents\\prueba_vinculategroups\\webapp_pe\\views\\formula\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A443F12D-F8CA-4B0D-B5CC-291FF8F1D1A6}|WebApp_PE.csproj|solutionrelative:views\\formula\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A443F12D-F8CA-4B0D-B5CC-291FF8F1D1A6}|WebApp_PE.csproj|c:\\users\\mmora\\onedrive\\documents\\prueba_vinculategroups\\webapp_pe\\controllers\\formulacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A443F12D-F8CA-4B0D-B5CC-291FF8F1D1A6}|WebApp_PE.csproj|solutionrelative:controllers\\formulacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A7E790A-3117-453F-B2F5-15ECADD8398E}|..\\DataAccess.BsnLogic\\DataAccess.BsnLogic.csproj|c:\\users\\mmora\\onedrive\\documents\\prueba_vinculategroups\\dataaccess.bsnlogic\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A7E790A-3117-453F-B2F5-15ECADD8398E}|..\\DataAccess.BsnLogic\\DataAccess.BsnLogic.csproj|c:\\users\\mmora\\onedrive\\documents\\prueba_vinculategroups\\dataaccess.bsnlogic\\models\\formulamateriales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A7E790A-3117-453F-B2F5-15ECADD8398E}|..\\DataAccess.BsnLogic\\DataAccess.BsnLogic.csproj|c:\\users\\mmora\\onedrive\\documents\\prueba_vinculategroups\\dataaccess.bsnlogic\\models\\formula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A443F12D-F8CA-4B0D-B5CC-291FF8F1D1A6}|WebApp_PE.csproj|c:\\users\\mmora\\onedrive\\documents\\prueba_vinculategroups\\webapp_pe\\viewmodels\\formulaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A443F12D-F8CA-4B0D-B5CC-291FF8F1D1A6}|WebApp_PE.csproj|solutionrelative:viewmodels\\formulaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A443F12D-F8CA-4B0D-B5CC-291FF8F1D1A6}|WebApp_PE.csproj|c:\\users\\mmora\\onedrive\\documents\\prueba_vinculategroups\\webapp_pe\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A443F12D-F8CA-4B0D-B5CC-291FF8F1D1A6}|WebApp_PE.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A443F12D-F8CA-4B0D-B5CC-291FF8F1D1A6}|WebApp_PE.csproj|c:\\users\\mmora\\onedrive\\documents\\prueba_vinculategroups\\webapp_pe\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A443F12D-F8CA-4B0D-B5CC-291FF8F1D1A6}|WebApp_PE.csproj|solutionrelative:appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,149 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 315,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\WebApp_PE\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\WebApp_PE\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-11T20:56:26.559Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\WebApp_PE\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\WebApp_PE\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwB4AAABWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T20:45:10.991Z",
+              "Title": "web.config",
+              "DocumentMoniker": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\WebApp_PE\\web.config",
+              "RelativeDocumentMoniker": "web.config",
+              "ToolTip": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\WebApp_PE\\web.config",
+              "RelativeToolTip": "web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-06-11T21:49:59.303Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "FormulaViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\WebApp_PE\\ViewModels\\FormulaViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\FormulaViewModel.cs",
-              "ToolTip": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\WebApp_PE\\ViewModels\\FormulaViewModel.cs",
-              "RelativeToolTip": "ViewModels\\FormulaViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\WebApp_PE\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\WebApp_PE\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T20:40:48.581Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\WebApp_PE\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\WebApp_PE\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-11T20:07:24.743Z",
+              "WhenOpened": "2025-06-11T21:49:57.906Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\WebApp_PE\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\WebApp_PE\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAUwBQAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-11T20:04:25.072Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\WebApp_PE\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\WebApp_PE\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-11T18:29:01.679Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Crear.cshtml",
-              "DocumentMoniker": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\WebApp_PE\\Views\\Formula\\Crear.cshtml",
-              "RelativeDocumentMoniker": "Views\\Formula\\Crear.cshtml",
-              "ToolTip": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\WebApp_PE\\Views\\Formula\\Crear.cshtml",
-              "RelativeToolTip": "Views\\Formula\\Crear.cshtml",
-              "ViewState": "AgIAACIAAAAAAAAAAAAswEAAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-11T18:26:47.331Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FormulaController.cs",
-              "DocumentMoniker": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\WebApp_PE\\Controllers\\FormulaController.cs",
-              "RelativeDocumentMoniker": "Controllers\\FormulaController.cs",
-              "ToolTip": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\WebApp_PE\\Controllers\\FormulaController.cs",
-              "RelativeToolTip": "Controllers\\FormulaController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAswC0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T18:08:53.587Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\DataAccess.BsnLogic\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "..\\DataAccess.BsnLogic\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\DataAccess.BsnLogic\\ApplicationDbContext.cs",
-              "RelativeToolTip": "..\\DataAccess.BsnLogic\\ApplicationDbContext.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAswB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T18:07:35.131Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FormulaMateriales.cs",
-              "DocumentMoniker": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\DataAccess.BsnLogic\\Models\\FormulaMateriales.cs",
-              "RelativeDocumentMoniker": "..\\DataAccess.BsnLogic\\Models\\FormulaMateriales.cs",
-              "ToolTip": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\DataAccess.BsnLogic\\Models\\FormulaMateriales.cs",
-              "RelativeToolTip": "..\\DataAccess.BsnLogic\\Models\\FormulaMateriales.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T18:07:13.221Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Formula.cs",
-              "DocumentMoniker": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\DataAccess.BsnLogic\\Models\\Formula.cs",
-              "RelativeDocumentMoniker": "..\\DataAccess.BsnLogic\\Models\\Formula.cs",
-              "ToolTip": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\DataAccess.BsnLogic\\Models\\Formula.cs",
-              "RelativeToolTip": "..\\DataAccess.BsnLogic\\Models\\Formula.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T18:07:05.201Z",
+              "Title": "appsettings.Production.json",
+              "DocumentMoniker": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\WebApp_PE\\appsettings.Production.json",
+              "RelativeDocumentMoniker": "appsettings.Production.json",
+              "ToolTip": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\WebApp_PE\\appsettings.Production.json",
+              "RelativeToolTip": "appsettings.Production.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-11T21:46:35.43Z",
               "EditorCaption": ""
             }
           ]
