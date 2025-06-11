@@ -1,0 +1,107 @@
+﻿@model WebApp_PE.ViewModels.FormulaViewModel
+@{
+    ViewData["Title"] = "Crear Fórmula";
+}
+
+<h2>Crear Fórmula</h2>
+
+<form asp-action="Crear" method="post">
+    <div>
+        <label>Producto</label>
+        <select asp-for="IdProducto" asp-items="ViewBag.Productos" class="form-control"></select>
+    </div>
+    <div>
+        <label>Nombre de la fórmula</label>
+        <input asp-for="Nombre" class="form-control" />
+    </div>
+    <div>
+        <label>Cantidad</label>
+        <input asp-for="Cantidad" class="form-control" />
+    </div>
+
+    <h4>Materiales</h4>
+    <table class="table" id="materialesTable">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Nombre</th>
+                <th>Cantidad</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <button type="button" class="btn btn-secondary" onclick="agregarMaterial()">Agregar Material</button>
+    <br /><br />
+    <button type="submit" class="btn btn-primary">Guardar</button>
+</form>
+
+<hr />
+<h3>Fórmulas Guardadas</h3>
+
+@if (ViewBag.Formulas != null)
+{
+    var formulas = ViewBag.Formulas as IEnumerable<dynamic>;
+
+    if (formulas != null)
+    {
+        <table class="table table-bordered">
+            <thead class="table-light">
+                <tr>
+                    <th>Producto</th>
+                    <th>Nombre de Fórmula</th>
+                    <th>Cantidad</th>
+                    <th>Materiales</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var formula in formulas)
+                {
+                    <tr>
+                        <td>@formula.Producto?.Nombre</td>
+                        <td>@formula.Nombre</td>
+                        <td>@formula.Cantidad</td>
+                        <td>
+                            <ul>
+                                @foreach (var material in formula.Materiales)
+                                {
+                                    <li>@(material.Producto?.Nombre ?? material.Nombre) - @material.Cantidad</li>
+                                }
+                            </ul>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+}
+
+@section Scripts {
+    <script>
+        const productos = @Html.Raw(ViewBag.ProductosJson);
+        let index = 0;
+
+        function agregarMaterial() {
+            let selectHtml = '<select name="Materiales[' + index + '].IdProducto" class="form-control">';
+            productos.forEach(p => {
+                selectHtml += `<option value="${p.IdProducto}">${p.Nombre}</option>`;
+            });
+            selectHtml += '</select>';
+
+            const row = `
+                <tr>
+                    <td>${selectHtml}</td>
+                    <td><input name="Materiales[${index}].Nombre" class="form-control" /></td>
+                    <td><input name="Materiales[${index}].Cantidad" class="form-control" type="number" step="any" /></td>
+                    <td><button type="button" onclick="eliminarFila(this)" class="btn btn-danger">X</button></td>
+                </tr>`;
+            document.querySelector("#materialesTable tbody").insertAdjacentHTML('beforeend', row);
+            index++;
+        }
+
+        function eliminarFila(btn) {
+            btn.closest('tr').remove();
+        }
+    </script>
+}

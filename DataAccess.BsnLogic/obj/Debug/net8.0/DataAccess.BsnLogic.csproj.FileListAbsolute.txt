@@ -1,0 +1,14 @@
+C:\Users\mmora\OneDrive\Documents\Prueba_VinculateGroups\DataAccess.BsnLogic\bin\Debug\net8.0\DataAccess.BsnLogic.deps.json
+C:\Users\mmora\OneDrive\Documents\Prueba_VinculateGroups\DataAccess.BsnLogic\bin\Debug\net8.0\DataAccess.BsnLogic.runtimeconfig.json
+C:\Users\mmora\OneDrive\Documents\Prueba_VinculateGroups\DataAccess.BsnLogic\bin\Debug\net8.0\DataAccess.BsnLogic.dll
+C:\Users\mmora\OneDrive\Documents\Prueba_VinculateGroups\DataAccess.BsnLogic\bin\Debug\net8.0\DataAccess.BsnLogic.pdb
+C:\Users\mmora\OneDrive\Documents\Prueba_VinculateGroups\DataAccess.BsnLogic\obj\Debug\net8.0\DataAccess.BsnLogic.csproj.AssemblyReference.cache
+C:\Users\mmora\OneDrive\Documents\Prueba_VinculateGroups\DataAccess.BsnLogic\obj\Debug\net8.0\DataAccess.BsnLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mmora\OneDrive\Documents\Prueba_VinculateGroups\DataAccess.BsnLogic\obj\Debug\net8.0\DataAccess.BsnLogic.AssemblyInfoInputs.cache
+C:\Users\mmora\OneDrive\Documents\Prueba_VinculateGroups\DataAccess.BsnLogic\obj\Debug\net8.0\DataAccess.BsnLogic.AssemblyInfo.cs
+C:\Users\mmora\OneDrive\Documents\Prueba_VinculateGroups\DataAccess.BsnLogic\obj\Debug\net8.0\DataAccess.BsnLogic.csproj.CoreCompileInputs.cache
+C:\Users\mmora\OneDrive\Documents\Prueba_VinculateGroups\DataAccess.BsnLogic\obj\Debug\net8.0\DataAccess.BsnLogic.dll
+C:\Users\mmora\OneDrive\Documents\Prueba_VinculateGroups\DataAccess.BsnLogic\obj\Debug\net8.0\refint\DataAccess.BsnLogic.dll
+C:\Users\mmora\OneDrive\Documents\Prueba_VinculateGroups\DataAccess.BsnLogic\obj\Debug\net8.0\DataAccess.BsnLogic.pdb
+C:\Users\mmora\OneDrive\Documents\Prueba_VinculateGroups\DataAccess.BsnLogic\obj\Debug\net8.0\DataAccess.BsnLogic.genruntimeconfig.cache
+C:\Users\mmora\OneDrive\Documents\Prueba_VinculateGroups\DataAccess.BsnLogic\obj\Debug\net8.0\ref\DataAccess.BsnLogic.dll
