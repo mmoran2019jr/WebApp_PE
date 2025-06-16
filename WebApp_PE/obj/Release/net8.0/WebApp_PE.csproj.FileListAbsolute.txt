@@ -148,3 +148,10 @@ C:\Users\mmora\OneDrive\Documents\Prueba_VinculateGroups\WebApp_PE\obj\Release\n
 C:\Users\mmora\OneDrive\Documents\Prueba_VinculateGroups\WebApp_PE\obj\Release\net8.0\WebApp_PE.pdb
 C:\Users\mmora\OneDrive\Documents\Prueba_VinculateGroups\WebApp_PE\obj\Release\net8.0\WebApp_PE.genruntimeconfig.cache
 C:\Users\mmora\OneDrive\Documents\Prueba_VinculateGroups\WebApp_PE\obj\Release\net8.0\ref\WebApp_PE.dll
+C:\Users\mmora\OneDrive\Documents\Prueba_VinculateGroups\WebApp_PE\bin\Release\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\mmora\OneDrive\Documents\Prueba_VinculateGroups\WebApp_PE\bin\Release\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\mmora\OneDrive\Documents\Prueba_VinculateGroups\WebApp_PE\bin\Release\net8.0\Microsoft.Extensions.ObjectPool.dll
+C:\Users\mmora\OneDrive\Documents\Prueba_VinculateGroups\WebApp_PE\bin\Release\net8.0\Microsoft.Extensions.WebEncoders.dll
+C:\Users\mmora\OneDrive\Documents\Prueba_VinculateGroups\WebApp_PE\bin\Release\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\mmora\OneDrive\Documents\Prueba_VinculateGroups\WebApp_PE\bin\Release\net8.0\System.Security.Cryptography.Xml.dll
+C:\Users\mmora\OneDrive\Documents\Prueba_VinculateGroups\WebApp_PE\bin\Release\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll

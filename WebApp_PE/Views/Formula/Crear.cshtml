@@ -14,7 +14,7 @@
                     <select asp-for="IdProducto" asp-items="ViewBag.Productos" class="form-select"></select>
                 </div>
                 <div class="col-md-4">
-                    <label class="form-label">Nombre de la fórmula</label>
+                    <label class="form-label">Nombre de la fórmula (producto a construir)</label>
                     <input asp-for="Nombre" class="form-control" />
                 </div>
                 <div class="col-md-4">
@@ -29,7 +29,7 @@
                     <thead class="table-light">
                         <tr>
                             <th>Producto</th>
-                            <th>Nombre</th>
+                            <th>Nombre de Material</th>
                             <th>Cantidad</th>
                             <th>Acciones</th>
                         </tr>
@@ -59,8 +59,8 @@
             <table class="table table-bordered table-striped">
                 <thead class="table-light">
                     <tr>
-                        <th>Producto</th>
-                        <th>Nombre de Fórmula</th>
+                        <th>Producto - Unidad de medida</th>
+                        <th>Nombre de Fórmula (producto a construir)</th>
                         <th>Cantidad</th>
                         <th>Materiales</th>
                     </tr>
@@ -69,14 +69,14 @@
                     @foreach (var formula in formulas)
                     {
                         <tr>
-                            <td>@formula.Producto?.Nombre</td>
+                            <td>@formula.Producto?.Nombre - @formula.Producto?.Unidad</td>
                             <td>@formula.Nombre</td>
                             <td>@formula.Cantidad</td>
                             <td>
                                 <ul>
                                     @foreach (var material in formula.Materiales)
                                     {
-                                        <li>@(material.Producto?.Nombre ?? material.Nombre) - @material.Cantidad</li>
+                                        <li>@(material.Nombre) - @material.Cantidad</li>
                                     }
                                 </ul>
                             </td>
