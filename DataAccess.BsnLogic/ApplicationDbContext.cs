@@ -20,6 +20,8 @@ namespace DataAccess.BsnLogic
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+
+            //Definicion de relaciones y claves
             modelBuilder.Entity<Formula>()
                 .HasKey(f => f.IdFormula);
 
@@ -34,7 +36,7 @@ namespace DataAccess.BsnLogic
                 .HasPrecision(18, 2);
 
             modelBuilder.Entity<FormulaMateriales>()
-                .HasKey(fm => new { fm.IdFormula, fm.IdProducto });
+                .HasKey(fm => fm.Id); 
 
             modelBuilder.Entity<FormulaMateriales>()
                 .HasOne(fm => fm.Formula)

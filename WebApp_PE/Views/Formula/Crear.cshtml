@@ -1,107 +1,173 @@
-﻿@model WebApp_PE.ViewModels.FormulaViewModel
+﻿@model DataAccess.BsnLogic.ViewModels.FormulaViewModel
 @{
     ViewData["Title"] = "Crear Fórmula";
 }
 
-<h2>Crear Fórmula</h2>
+<div class="container mt-4">
+    <div class="card shadow p-4 rounded-4">
+        <h2 class="mb-4 text-primary"><i class="fas fa-flask me-2"></i>Crear Fórmula</h2>
 
-<form asp-action="Crear" method="post">
-    <div>
-        <label>Producto</label>
-        <select asp-for="IdProducto" asp-items="ViewBag.Productos" class="form-control"></select>
+        <form asp-action="Crear" method="post">
+            <div class="row g-3 mb-3">
+                <div class="col-md-4">
+                    <label class="form-label">Producto</label>
+                    <select asp-for="IdProducto" asp-items="ViewBag.Productos" class="form-select"></select>
+                </div>
+                <div class="col-md-4">
+                    <label class="form-label">Nombre de la fórmula</label>
+                    <input asp-for="Nombre" class="form-control" />
+                </div>
+                <div class="col-md-4">
+                    <label class="form-label">Cantidad</label>
+                    <input asp-for="Cantidad" class="form-control" />
+                </div>
+            </div>
+
+            <h4 class="mt-4 mb-2">Materiales</h4>
+            <div class="table-responsive">
+                <table class="table table-hover align-middle" id="materialesTable">
+                    <thead class="table-light">
+                        <tr>
+                            <th>Producto</th>
+                            <th>Nombre</th>
+                            <th>Cantidad</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+
+            <button type="button" class="btn btn-outline-secondary mb-3" onclick="agregarMaterial()">
+                <i class="fas fa-plus-circle me-1"></i>Agregar Material
+            </button>
+
+            <div class="text-end">
+                <button type="submit" class="btn btn-primary">
+                    <i class="fas fa-save me-2"></i>Guardar Fórmula
+                </button>
+            </div>
+        </form>
     </div>
-    <div>
-        <label>Nombre de la fórmula</label>
-        <input asp-for="Nombre" class="form-control" />
-    </div>
-    <div>
-        <label>Cantidad</label>
-        <input asp-for="Cantidad" class="form-control" />
-    </div>
 
-    <h4>Materiales</h4>
-    <table class="table" id="materialesTable">
-        <thead>
-            <tr>
-                <th>Producto</th>
-                <th>Nombre</th>
-                <th>Cantidad</th>
-                <th>Acciones</th>
-            </tr>
-        </thead>
-        <tbody></tbody>
-    </table>
+    <hr class="my-5" />
+    <div class="card shadow p-4 rounded-4">
+        <h3 class="mb-3"><i class="fas fa-list-ul me-2"></i>Fórmulas Guardadas</h3>
 
-    <button type="button" class="btn btn-secondary" onclick="agregarMaterial()">Agregar Material</button>
-    <br /><br />
-    <button type="submit" class="btn btn-primary">Guardar</button>
-</form>
-
-<hr />
-<h3>Fórmulas Guardadas</h3>
-
-@if (ViewBag.Formulas != null)
-{
-    var formulas = ViewBag.Formulas as IEnumerable<dynamic>;
-
-    if (formulas != null)
-    {
-        <table class="table table-bordered">
-            <thead class="table-light">
-                <tr>
-                    <th>Producto</th>
-                    <th>Nombre de Fórmula</th>
-                    <th>Cantidad</th>
-                    <th>Materiales</th>
-                </tr>
-            </thead>
-            <tbody>
-                @foreach (var formula in formulas)
-                {
+        @if (ViewBag.Formulas is IEnumerable<dynamic> formulas)
+        {
+            <table class="table table-bordered table-striped">
+                <thead class="table-light">
                     <tr>
-                        <td>@formula.Producto?.Nombre</td>
-                        <td>@formula.Nombre</td>
-                        <td>@formula.Cantidad</td>
-                        <td>
-                            <ul>
-                                @foreach (var material in formula.Materiales)
-                                {
-                                    <li>@(material.Producto?.Nombre ?? material.Nombre) - @material.Cantidad</li>
-                                }
-                            </ul>
-                        </td>
+                        <th>Producto</th>
+                        <th>Nombre de Fórmula</th>
+                        <th>Cantidad</th>
+                        <th>Materiales</th>
                     </tr>
-                }
-            </tbody>
-        </table>
-    }
-}
+                </thead>
+                <tbody>
+                    @foreach (var formula in formulas)
+                    {
+                        <tr>
+                            <td>@formula.Producto?.Nombre</td>
+                            <td>@formula.Nombre</td>
+                            <td>@formula.Cantidad</td>
+                            <td>
+                                <ul>
+                                    @foreach (var material in formula.Materiales)
+                                    {
+                                        <li>@(material.Producto?.Nombre ?? material.Nombre) - @material.Cantidad</li>
+                                    }
+                                </ul>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+    </div>
+</div>
 
 @section Scripts {
     <script>
         const productos = @Html.Raw(ViewBag.ProductosJson);
         let index = 0;
+        let productoPrincipalId = null;
+
+        window.onload = function () {
+            const selectProducto = document.querySelector("[name='IdProducto']");
+            productoPrincipalId = selectProducto.value;
+
+            selectProducto.addEventListener("change", function () {
+                productoPrincipalId = this.value;
+                limpiarTablaMateriales();
+            });
+        };
+
+        function limpiarTablaMateriales() {
+            const tbody = document.querySelector("#materialesTable tbody");
+            tbody.innerHTML = "";
+            index = 0;
+        }
 
         function agregarMaterial() {
-            let selectHtml = '<select name="Materiales[' + index + '].IdProducto" class="form-control">';
-            productos.forEach(p => {
-                selectHtml += `<option value="${p.IdProducto}">${p.Nombre}</option>`;
-            });
-            selectHtml += '</select>';
+            if (!productoPrincipalId) {
+                alert("Por favor selecciona un producto principal primero.");
+                return;
+            }
 
-            const row = `
-                <tr>
-                    <td>${selectHtml}</td>
-                    <td><input name="Materiales[${index}].Nombre" class="form-control" /></td>
-                    <td><input name="Materiales[${index}].Cantidad" class="form-control" type="number" step="any" /></td>
-                    <td><button type="button" onclick="eliminarFila(this)" class="btn btn-danger">X</button></td>
-                </tr>`;
-            document.querySelector("#materialesTable tbody").insertAdjacentHTML('beforeend', row);
+            const nombreProducto = obtenerNombreProducto(productoPrincipalId);
+
+            const row = document.createElement("tr");
+
+            row.innerHTML = `
+                <td>
+                    <select class="form-select" disabled>
+                        <option selected>${nombreProducto}</option>
+                    </select>
+                    <input type="hidden" name="Materiales[${index}].IdProducto" value="${productoPrincipalId}" />
+                </td>
+                <td>
+                    <input name="Materiales[${index}].Nombre" class="form-control" />
+                </td>
+                <td>
+                    <input name="Materiales[${index}].Cantidad" class="form-control" type="number" step="any" />
+                </td>
+                <td>
+                    <button type="button" onclick="eliminarFila(this)" class="btn btn-sm btn-danger">
+                        <i class="fas fa-trash-alt"></i>
+                    </button>
+                </td>
+            `;
+
+            document.querySelector("#materialesTable tbody").appendChild(row);
             index++;
+        }
+
+        function obtenerNombreProducto(id) {
+            const producto = productos.find(p => p.IdProducto == id);
+            return producto ? producto.Nombre : '';
         }
 
         function eliminarFila(btn) {
             btn.closest('tr').remove();
+            reindexarMateriales();
+        }
+
+        function reindexarMateriales() {
+            const filas = document.querySelectorAll("#materialesTable tbody tr");
+            index = 0;
+
+            filas.forEach(fila => {
+                const inputs = fila.querySelectorAll("input, select");
+                inputs.forEach(input => {
+                    if (input.name?.includes("Materiales[")) {
+                        input.name = input.name.replace(/Materiales\[\d+\]/, `Materiales[${index}]`);
+                    }
+                });
+                index++;
+            });
         }
     </script>
 }
+

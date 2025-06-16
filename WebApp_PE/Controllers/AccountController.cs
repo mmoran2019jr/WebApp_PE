@@ -2,18 +2,19 @@
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
-using WebApp_PE.ViewModels;
 using DataAccess.BsnLogic.Services;
+using DataAccess.BsnLogic.Interfaces;
+using DataAccess.BsnLogic.ViewModels;
 
 namespace WebApp_PE.Controllers
 {
     public class AccountController : Controller
     {
-        private readonly DataAccess.BsnLogic.Services.AuthenticationService _authService;
+        private readonly IAccountService _accountService;
 
-        public AccountController(DataAccess.BsnLogic.Services.AuthenticationService authService)
+        public AccountController(IAccountService accountService)
         {
-            _authService = authService;
+            _accountService = accountService;
         }
 
         [HttpGet]
@@ -23,35 +24,29 @@ namespace WebApp_PE.Controllers
         }
 
         [HttpPost]
-        public IActionResult Login(LoginViewModel model)
+        public async Task<IActionResult> Login(LoginViewModel model)
         {
             if (!ModelState.IsValid)
                 return View(model);
 
-            var usuario = _authService.ValidarUsuario(model.Nombre, model.Contraseña);
+            var usuario = _accountService.ValidarUsuario(model.Nombre.Trim(), model.Contraseña.Trim());
+
             if (usuario == null)
             {
                 ModelState.AddModelError("", "Usuario o contraseña inválidos");
                 return View(model);
             }
 
-            var claims = new List<Claim>
-        {
-            new Claim(ClaimTypes.Name, usuario.Nombre),
-            new Claim(ClaimTypes.Role, usuario.Grupo.Nombre),
-        };
-
-            var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
-            var principal = new ClaimsPrincipal(identity);
-            HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
+            var principal = _accountService.GenerarClaimsPrincipal(usuario);
+            await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
 
             return RedirectToAction("Index", "Home");
         }
 
         [HttpPost]
-        public IActionResult Logout()
+        public async Task<IActionResult> Logout()
         {
-            HttpContext.SignOutAsync();
+            await HttpContext.SignOutAsync();
             return RedirectToAction("Login");
         }
     }

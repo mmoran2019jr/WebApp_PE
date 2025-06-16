@@ -9,7 +9,7 @@ namespace DataAccess.BsnLogic.Models
 {
     public class FormulaMateriales
     {
-        //public int Id { get; set; }
+        public int Id { get; set; }
 
         public int IdFormula { get; set; }
         public Formula? Formula { get; set; }

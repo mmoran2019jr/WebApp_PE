@@ -1,0 +1,98 @@
+﻿@model List<DataAccess.BsnLogic.ViewModels.ProductoListadoViewModel>
+
+@{
+    ViewData["Title"] = "Gestión de Productos";
+}
+
+<h2>Productos</h2>
+
+<button class="btn btn-success mb-3" onclick="mostrarModal()">Agregar Producto</button>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Unidad</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody id="productosTableBody">
+        @foreach (var item in Model)
+        {
+            <tr data-id="@item.IdProducto">
+                <td>@item.Nombre</td>
+                <td>@item.Unidad</td>
+                <td>
+                    <button class="btn btn-primary btn-sm" onclick="mostrarModal(@item.IdProducto)">Editar</button>
+                    <form onsubmit="eliminarProducto(event, @item.IdProducto)" class="d-inline">
+                        <button type="submit" class="btn btn-danger btn-sm">Eliminar</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div id="modalContainer"></div>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        function mostrarModal(id = 0) {
+            $.get('@Url.Action("ObtenerProducto")', { id: id }, function (html) {
+                $('#modalContainer').html(html);
+                var modalElement = document.getElementById('productoModal');
+                var modal = new bootstrap.Modal(modalElement);
+                modal.show();
+
+                bindModalForm(modal);
+            });
+        }
+
+        function bindModalForm(modal) {
+            $('#productoModal form').off('submit').on('submit', function (e) {
+                e.preventDefault();
+                var form = $(this);
+
+                $.ajax({
+                    url: form.attr('action'),
+                    type: form.attr('method'),
+                    data: form.serialize(),
+                    success: function (result) {
+                        if (result.success) {
+                            modal.hide();
+                            recargarTabla();
+                        } else {
+                            $('#modalContainer').html(result);
+                            var newModalElement = document.getElementById('productoModal');
+                            var newModal = new bootstrap.Modal(newModalElement);
+                            newModal.show();
+                            bindModalForm(newModal);
+                        }
+                    },
+                    error: function () {
+                        alert('Error al guardar el producto');
+                    }
+                });
+            });
+        }
+
+        function eliminarProducto(e, id) {
+            e.preventDefault();
+
+            if (confirm('¿Seguro que deseas eliminar este producto?')) {
+                $.post('@Url.Action("Eliminar")', { id: id }, function () {
+                    recargarTabla();
+                }).fail(function () {
+                    alert('Error al eliminar el producto');
+                });
+            }
+        }
+
+        function recargarTabla() {
+            location.reload();
+        }
+    </script>
+}

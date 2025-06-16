@@ -1,4 +1,6 @@
 using DataAccess.BsnLogic;
+using DataAccess.BsnLogic.Interfaces;
+using DataAccess.BsnLogic.Repositories;
 using DataAccess.BsnLogic.Services;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
@@ -21,9 +23,21 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
         options.AccessDeniedPath = "/Account/Denied";
     });
 
+//Agregar autorizacion
 builder.Services.AddAuthorization();
 
+
+//Inyeccion de dependencias
 builder.Services.AddScoped<AuthenticationService>();
+
+builder.Services.AddScoped<IFormulaRepository, FormulaRepository>();
+builder.Services.AddScoped<IFormulaService, FormulaService>();
+
+builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+builder.Services.AddScoped<IAccountService, AccountService>();
+
+builder.Services.AddScoped<IProductoRepository, ProductoRepository>();
+builder.Services.AddScoped<IProductoService, ProductoService>();
 
 var app = builder.Build();
 

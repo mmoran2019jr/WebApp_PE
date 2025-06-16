@@ -5,7 +5,7 @@
 namespace DataAccess.BsnLogic.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialClean : Migration
+    public partial class InitialCreate : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -83,6 +83,8 @@ namespace DataAccess.BsnLogic.Migrations
                 name: "FormulaMateriales",
                 columns: table => new
                 {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     IdFormula = table.Column<int>(type: "int", nullable: false),
                     IdProducto = table.Column<int>(type: "int", nullable: false),
                     Nombre = table.Column<string>(type: "nvarchar(max)", nullable: true),
@@ -90,7 +92,7 @@ namespace DataAccess.BsnLogic.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_FormulaMateriales", x => new { x.IdFormula, x.IdProducto });
+                    table.PrimaryKey("PK_FormulaMateriales", x => x.Id);
                     table.ForeignKey(
                         name: "FK_FormulaMateriales_Formulas_IdFormula",
                         column: x => x.IdFormula,
@@ -104,6 +106,11 @@ namespace DataAccess.BsnLogic.Migrations
                         principalColumn: "IdProducto",
                         onDelete: ReferentialAction.Restrict);
                 });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_FormulaMateriales_IdFormula",
+                table: "FormulaMateriales",
+                column: "IdFormula");
 
             migrationBuilder.CreateIndex(
                 name: "IX_FormulaMateriales_IdProducto",

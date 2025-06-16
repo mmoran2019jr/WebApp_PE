@@ -1,4 +1,4 @@
-﻿namespace WebApp_PE.ViewModels
+﻿namespace DataAccess.BsnLogic.ViewModels
 {
     public class FormulaViewModel
     {

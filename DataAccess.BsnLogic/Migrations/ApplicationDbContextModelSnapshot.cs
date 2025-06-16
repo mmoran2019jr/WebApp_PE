@@ -48,20 +48,28 @@ namespace DataAccess.BsnLogic.Migrations
 
             modelBuilder.Entity("DataAccess.BsnLogic.Models.FormulaMateriales", b =>
                 {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<decimal>("Cantidad")
+                        .HasPrecision(18, 2)
+                        .HasColumnType("decimal(18,2)");
+
                     b.Property<int>("IdFormula")
                         .HasColumnType("int");
 
                     b.Property<int>("IdProducto")
                         .HasColumnType("int");
 
-                    b.Property<decimal>("Cantidad")
-                        .HasPrecision(18, 2)
-                        .HasColumnType("decimal(18,2)");
-
                     b.Property<string>("Nombre")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("IdFormula", "IdProducto");
+                    b.HasKey("Id");
+
+                    b.HasIndex("IdFormula");
 
                     b.HasIndex("IdProducto");
 

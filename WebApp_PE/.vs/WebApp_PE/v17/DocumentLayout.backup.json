@@ -3,16 +3,39 @@
   "WorkspaceRootPath": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\WebApp_PE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A443F12D-F8CA-4B0D-B5CC-291FF8F1D1A6}|WebApp_PE.csproj|c:\\users\\mmora\\onedrive\\documents\\prueba_vinculategroups\\webapp_pe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A443F12D-F8CA-4B0D-B5CC-291FF8F1D1A6}|WebApp_PE.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\DataAccess.BsnLogic\\Migrations\\20250616035606_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A443F12D-F8CA-4B0D-B5CC-291FF8F1D1A6}|WebApp_PE.csproj|c:\\users\\mmora\\onedrive\\documents\\prueba_vinculategroups\\webapp_pe\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A443F12D-F8CA-4B0D-B5CC-291FF8F1D1A6}|WebApp_PE.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{2A7E790A-3117-453F-B2F5-15ECADD8398E}|..\\DataAccess.BsnLogic\\DataAccess.BsnLogic.csproj|c:\\users\\mmora\\onedrive\\documents\\prueba_vinculategroups\\dataaccess.bsnlogic\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A443F12D-F8CA-4B0D-B5CC-291FF8F1D1A6}|WebApp_PE.csproj|c:\\users\\mmora\\onedrive\\documents\\prueba_vinculategroups\\webapp_pe\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A443F12D-F8CA-4B0D-B5CC-291FF8F1D1A6}|WebApp_PE.csproj|solutionrelative:appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{2A7E790A-3117-453F-B2F5-15ECADD8398E}|..\\DataAccess.BsnLogic\\DataAccess.BsnLogic.csproj|c:\\users\\mmora\\onedrive\\documents\\prueba_vinculategroups\\dataaccess.bsnlogic\\models\\formulamateriales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A443F12D-F8CA-4B0D-B5CC-291FF8F1D1A6}|WebApp_PE.csproj|c:\\users\\mmora\\onedrive\\documents\\prueba_vinculategroups\\webapp_pe\\views\\formula\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A443F12D-F8CA-4B0D-B5CC-291FF8F1D1A6}|WebApp_PE.csproj|solutionrelative:views\\formula\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A7E790A-3117-453F-B2F5-15ECADD8398E}|..\\DataAccess.BsnLogic\\DataAccess.BsnLogic.csproj|c:\\users\\mmora\\onedrive\\documents\\prueba_vinculategroups\\dataaccess.bsnlogic\\services\\formulaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A7E790A-3117-453F-B2F5-15ECADD8398E}|..\\DataAccess.BsnLogic\\DataAccess.BsnLogic.csproj|c:\\users\\mmora\\onedrive\\documents\\prueba_vinculategroups\\dataaccess.bsnlogic\\repositories\\formularepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A443F12D-F8CA-4B0D-B5CC-291FF8F1D1A6}|WebApp_PE.csproj|c:\\users\\mmora\\onedrive\\documents\\prueba_vinculategroups\\webapp_pe\\controllers\\formulacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A443F12D-F8CA-4B0D-B5CC-291FF8F1D1A6}|WebApp_PE.csproj|solutionrelative:controllers\\formulacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A7E790A-3117-453F-B2F5-15ECADD8398E}|..\\DataAccess.BsnLogic\\DataAccess.BsnLogic.csproj|c:\\users\\mmora\\onedrive\\documents\\prueba_vinculategroups\\dataaccess.bsnlogic\\repositories\\iformularepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A7E790A-3117-453F-B2F5-15ECADD8398E}|..\\DataAccess.BsnLogic\\DataAccess.BsnLogic.csproj|c:\\users\\mmora\\onedrive\\documents\\prueba_vinculategroups\\dataaccess.bsnlogic\\interfaces\\iformulaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A7E790A-3117-453F-B2F5-15ECADD8398E}|..\\DataAccess.BsnLogic\\DataAccess.BsnLogic.csproj|c:\\users\\mmora\\onedrive\\documents\\prueba_vinculategroups\\dataaccess.bsnlogic\\models\\formula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A7E790A-3117-453F-B2F5-15ECADD8398E}|..\\DataAccess.BsnLogic\\DataAccess.BsnLogic.csproj|c:\\users\\mmora\\onedrive\\documents\\prueba_vinculategroups\\dataaccess.bsnlogic\\viewmodels\\formulaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,46 +44,150 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 315,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 511,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "web.config",
-              "DocumentMoniker": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\WebApp_PE\\web.config",
-              "RelativeDocumentMoniker": "web.config",
-              "ToolTip": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\WebApp_PE\\web.config",
-              "RelativeToolTip": "web.config",
+              "DocumentIndex": 0,
+              "Title": "20250616035606_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\DataAccess.BsnLogic\\Migrations\\20250616035606_InitialCreate.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess.BsnLogic\\Migrations\\20250616035606_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\DataAccess.BsnLogic\\Migrations\\20250616035606_InitialCreate.cs",
+              "RelativeToolTip": "..\\DataAccess.BsnLogic\\Migrations\\20250616035606_InitialCreate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-06-11T21:49:59.303Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T03:56:06.636Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\WebApp_PE\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\WebApp_PE\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\DataAccess.BsnLogic\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess.BsnLogic\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\DataAccess.BsnLogic\\ApplicationDbContext.cs",
+              "RelativeToolTip": "..\\DataAccess.BsnLogic\\ApplicationDbContext.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA5wC4AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T21:49:57.906Z",
+              "WhenOpened": "2025-06-16T03:50:47.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Crear.cshtml",
+              "DocumentMoniker": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\WebApp_PE\\Views\\Formula\\Crear.cshtml",
+              "RelativeDocumentMoniker": "Views\\Formula\\Crear.cshtml",
+              "ToolTip": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\WebApp_PE\\Views\\Formula\\Crear.cshtml",
+              "RelativeToolTip": "Views\\Formula\\Crear.cshtml",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAAAKUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T03:45:21.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormulaController.cs",
+              "DocumentMoniker": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\WebApp_PE\\Controllers\\FormulaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FormulaController.cs",
+              "ToolTip": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\WebApp_PE\\Controllers\\FormulaController.cs",
+              "RelativeToolTip": "Controllers\\FormulaController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwD8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T03:45:19.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FormulaViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\DataAccess.BsnLogic\\ViewModels\\FormulaViewModel.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess.BsnLogic\\ViewModels\\FormulaViewModel.cs",
+              "ToolTip": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\DataAccess.BsnLogic\\ViewModels\\FormulaViewModel.cs",
+              "RelativeToolTip": "..\\DataAccess.BsnLogic\\ViewModels\\FormulaViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T03:45:16.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormulaService.cs",
+              "DocumentMoniker": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\DataAccess.BsnLogic\\Services\\FormulaService.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess.BsnLogic\\Services\\FormulaService.cs",
+              "ToolTip": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\DataAccess.BsnLogic\\Services\\FormulaService.cs",
+              "RelativeToolTip": "..\\DataAccess.BsnLogic\\Services\\FormulaService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCAAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T03:45:09.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IFormulaService.cs",
+              "DocumentMoniker": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\DataAccess.BsnLogic\\Interfaces\\IFormulaService.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess.BsnLogic\\Interfaces\\IFormulaService.cs",
+              "ToolTip": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\DataAccess.BsnLogic\\Interfaces\\IFormulaService.cs",
+              "RelativeToolTip": "..\\DataAccess.BsnLogic\\Interfaces\\IFormulaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T03:45:05.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormulaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\DataAccess.BsnLogic\\Repositories\\FormulaRepository.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess.BsnLogic\\Repositories\\FormulaRepository.cs",
+              "ToolTip": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\DataAccess.BsnLogic\\Repositories\\FormulaRepository.cs",
+              "RelativeToolTip": "..\\DataAccess.BsnLogic\\Repositories\\FormulaRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T03:45:08.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IFormulaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\DataAccess.BsnLogic\\Repositories\\IFormulaRepository.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess.BsnLogic\\Repositories\\IFormulaRepository.cs",
+              "ToolTip": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\DataAccess.BsnLogic\\Repositories\\IFormulaRepository.cs",
+              "RelativeToolTip": "..\\DataAccess.BsnLogic\\Repositories\\IFormulaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T03:45:07.499Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "appsettings.Production.json",
-              "DocumentMoniker": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\WebApp_PE\\appsettings.Production.json",
-              "RelativeDocumentMoniker": "appsettings.Production.json",
-              "ToolTip": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\WebApp_PE\\appsettings.Production.json",
-              "RelativeToolTip": "appsettings.Production.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-11T21:46:35.43Z",
+              "Title": "FormulaMateriales.cs",
+              "DocumentMoniker": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\DataAccess.BsnLogic\\Models\\FormulaMateriales.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess.BsnLogic\\Models\\FormulaMateriales.cs",
+              "ToolTip": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\DataAccess.BsnLogic\\Models\\FormulaMateriales.cs",
+              "RelativeToolTip": "..\\DataAccess.BsnLogic\\Models\\FormulaMateriales.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T03:45:03.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Formula.cs",
+              "DocumentMoniker": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\DataAccess.BsnLogic\\Models\\Formula.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess.BsnLogic\\Models\\Formula.cs",
+              "ToolTip": "C:\\Users\\mmora\\OneDrive\\Documents\\Prueba_VinculateGroups\\DataAccess.BsnLogic\\Models\\Formula.cs",
+              "RelativeToolTip": "..\\DataAccess.BsnLogic\\Models\\Formula.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T03:45:02.616Z",
               "EditorCaption": ""
             }
           ]
